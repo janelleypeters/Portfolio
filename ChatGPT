@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janelle Y Peters | Designer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(90deg, pink, purple, blue);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        .portfolio-item {
+            margin: 20px 0;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Janelle Y Peters</h1>
+        <p>Designer Portfolio</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#graphic-design">Graphic Design Portfolio</a>
+        <a href="#product-design">Product Design Portfolio</a>
+        <a href="#ux-ui">UX/UI Portfolio</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am Janelle Y Peters, a passionate designer with a focus on graphic design, product design, and UX/UI design. With a keen eye for detail and a love for creativity, I strive to create designs that are both beautiful and functional. Explore my work and feel free to reach out if you have any questions or projects in mind!</p>
+    </section>
+    <section id="graphic-design">
+        <h2>Graphic Design Portfolio</h2>
+        <div class="portfolio-item">
+            <h3>Project Title</h3>
+            <img src="graphic-design1.jpg" alt="Graphic Design Project 1">
+            <p>Description of the graphic design project.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Project Title</h3>
+            <img src="graphic-design2.jpg" alt="Graphic Design Project 2">
+            <p>Description of the graphic design project.</p>
+        </div>
+    </section>
+    <section id="product-design">
+        <h2>Product Design Portfolio</h2>
+        <div class="portfolio-item">
+            <h3>Project Title</h3>
+            <img src="product-design1.jpg" alt="Product Design Project 1">
+            <p>Description of the product design project.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Project Title</h3>
+            <img src="product-design2.jpg" alt="Product Design Project 2">
+            <p>Description of the product design project.</p>
+        </div>
+    </section>
+    <section id="ux-ui">
+        <h2>UX/UI Portfolio</h2>
+        <div class="portfolio-item">
+            <h3>Project Title</h3>
+            <img src="ux-ui-design1.jpg" alt="UX/UI Design Project 1">
+            <p>Description of the UX/UI design project.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Project Title</h3>
+            <img src="ux-ui-design2.jpg" alt="UX/UI Design Project 2">
+            <p>Description of the UX/UI design project.</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Janelle Y Peters. All rights reserved.</p>
+    </footer>
+</body>
+</html>
